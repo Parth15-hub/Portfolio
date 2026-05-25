@@ -155,7 +155,7 @@
     transition: var(--transition);
     border: 2px solid var(--ink);
   }
-  .btn-primary:hover { background: transparent; color: var(--ink); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+  .btn-primary:hover { background: #C4A882; border-color: #C4A882; color: var(--ink); transform: translateY(-2px); box-shadow: var(--shadow-md); }
   .btn-secondary {
     background: transparent;
     color: var(--ink);
@@ -261,7 +261,7 @@
   .skill-cat-title { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.25rem; }
   .skill-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
   .skill-tag { background: var(--bg2); border: 1px solid var(--border); border-radius: 6px; padding: 0.35rem 0.75rem; font-size: 0.8rem; font-weight: 500; color: var(--ink2); transition: var(--transition); }
-  .skill-tag:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+  .skill-tag:hover { background: #C4A882; border-color: #C4A882; color: var(--black); border-color: #C4A882; }
 
   /* ── EXPERIENCE ─────────────────────────────────────── */
   #experience { background: var(--bg); }
@@ -764,6 +764,23 @@
 
       <div class="project-card fade-in fade-delay-2">
         <span class="proj-num">03</span>
+        <h3 class="proj-title">TextRank Algorithm</h3>
+        <p class="proj-desc">NLP-based extractive text summarization web application that identifies important sentences from long text and generates concise summaries using graph-based ranking logic.</p>
+        <div class="proj-impact">🧠 Summarizes long content using TextRank-based sentence ranking</div>
+        <div class="proj-tech">
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">Express.js</span>
+          <span class="tech-tag">NLP</span>
+          <span class="tech-tag">TextRank</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/Parth15-hub/TextRank-Algorithm" target="_blank" class="proj-link dark">GitHub ↗</a>
+          <a href="https://textrank-algorithm.onrender.com/" class="proj-link light">Live Demo →</a>
+        </div>
+      </div>
+
+      <div class="project-card fade-in fade-delay-3">
+        <span class="proj-num">04</span>
         <h3 class="proj-title">Skincare Recommendation Engine</h3>
         <p class="proj-desc">AI-powered product recommender using data preprocessing and classification models, applying Python scripting for data-driven automation and personalized skincare matching.</p>
         <div class="proj-impact">🔬 Data-driven product matching via Python ML classification models</div>
@@ -779,8 +796,8 @@
         </div>
       </div>
 
-      <div class="project-card fade-in fade-delay-3">
-        <span class="proj-num">04</span>
+      <div class="project-card fade-in fade-delay-4">
+        <span class="proj-num">05</span>
         <h3 class="proj-title">E-Learning Platform</h3>
         <p class="proj-desc">End-to-end platform with user authentication, REST API integration, and database management. Mapped and automated multi-step onboarding workflows for a seamless learner experience.</p>
         <div class="proj-impact">🎓 Full-stack LMS with auth, REST APIs, and automated onboarding workflows</div>
@@ -796,8 +813,8 @@
         </div>
       </div>
 
-      <div class="project-card fade-in fade-delay-4">
-        <span class="proj-num">05</span>
+      <div class="project-card fade-in fade-delay-5">
+        <span class="proj-num">06</span>
         <h3 class="proj-title">Fintech Business Consultant Website</h3>
         <p class="proj-desc">Dynamic web portal with API connectors and automated data rendering. Architected a responsive portal mirroring complex integration workflows, improving data rendering speed by 20% and enhancing UX.</p>
         <div class="proj-impact">💼 20% faster data rendering — deployed responsive portal with API automation</div>
@@ -809,7 +826,7 @@
         </div>
         <div class="proj-links">
           <a href="https://github.com/Parth15-hub" target="_blank" class="proj-link dark">GitHub ↗</a>
-          <a href="#" class="proj-link light">Live Demo →</a>
+          <a href="https://html.awaikenthemes.com/fintech/" class="proj-link light">Live Demo →</a>
         </div>
       </div>
 
